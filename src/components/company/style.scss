@@ -1,0 +1,25 @@
+
+#our__company{
+    margin-top: 102px;
+    }
+    .our__company__content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .company__title{
+        max-width: 365px;
+        width: 100%;
+        font-weight: 500;
+    font-size: 28px;
+    line-height: 145%;
+    color: #13183F;
+    margin-right: 71px;
+    }
+    .company__images{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 734px;
+        width: 100%;
+    }
