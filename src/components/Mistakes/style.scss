@@ -1,0 +1,76 @@
+.mistakes__content{
+    padding-top: 132px;
+    padding-bottom: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .mistakes__video{
+        position: relative;
+        .play__btn{
+            position: absolute;
+            left: 0; right: 0; margin: auto;top: 0;bottom: 0;
+        }
+    }
+    .mistakes__title{
+        font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+max-width: 514px;
+width: 100%;
+    }
+   
+    .mistakes__descr{
+        margin-top: 16px;
+        font-weight: 400;
+font-size: 14px;
+line-height: 164%;
+/* or 23px */
+
+
+color: #111D2C;
+    }
+}
+.mistakes__text__content{
+    width: 514px;
+}
+.block__comment{
+    background: #F0F7FF;
+border-radius: 8px;
+padding: 32px 20px;
+position: relative;
+margin-top: 60px;
+.mistakes__comment{
+    font-weight: 500;
+font-size: 16px;
+line-height: 145%;
+color: #161616;
+}
+.mistake__owner{
+    padding-top: 16px;
+    font-weight: 400;
+font-size: 14px;
+line-height: 145%;
+color: #161616;
+}
+}
+.zp{
+    position: absolute;
+    left: 16px;
+    top: -16px;
+}
+@media only screen and (max-width: 1200px) {
+    .mistakes__content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .mistakes__video__img{
+        max-width: 600px;
+        width: 100%;
+    }
+    .mistakes__title{
+        margin-top: 20px;
+    }
+  }

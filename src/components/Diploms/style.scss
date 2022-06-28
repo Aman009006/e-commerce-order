@@ -1,0 +1,68 @@
+.diploms__title{
+    font-weight: 600;
+font-size: 40px;
+line-height: 132%;
+max-width: 530px;
+width: 100%;
+}
+.diploms__descr{
+    font-weight: 400;
+font-size: 14px;
+line-height: 164%;
+/* or 23px */
+
+
+color: #2A2F51;
+max-width: 579px;
+width: 100%;
+}
+.diploms__text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+.dimploms__imgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.diploms__img{
+    margin-bottom: 24px;
+}
+.download__more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 32px;
+    font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+width: 175px;
+height: 44px;
+
+border-radius: 2px;
+background: none;
+}
+.diploms{
+    margin-bottom: 104px;
+}
+@media only screen and (max-width: 1150px) {
+    .diploms__text{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+    }
+    .diploms__title{
+        margin-bottom: 20px;
+    }
+ }
+ @media only screen and (max-width: 600px) {
+    .dimploms__imgs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+ }
